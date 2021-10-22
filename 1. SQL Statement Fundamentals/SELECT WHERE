@@ -1,0 +1,59 @@
+                        PART 1
+
+SELECT column1, column2
+
+FROM table
+
+WHERE conditions;
+
+
+
+
+
+SELECT name,choice FROM table
+
+WHERE name = 'David AND choice='Red';
+
+======================================================
+
+                       PART 2
+ 
+ SELECT * FROM customer
+
+WHERE first_name = 'Jared';
+
+
+
+
+
+SELECT * FROM film
+
+WHERE rental_rate > 4 AND replacement_cost >= 19.99
+
+AND rating = 'R';
+
+
+
+
+
+SELECT COUNT (*) FROM film
+
+WHERE rental_rate > 4 AND replacement_cost >= 19.99
+
+AND rating = 'R';
+
+
+
+
+
+SELECT * FROM film
+
+WHERE rating = 'R' or rating = 'PG-13';
+
+
+
+
+
+SELECT * FROM film
+
+WHERE rating != 'R';
