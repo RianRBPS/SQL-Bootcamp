@@ -1,0 +1,7 @@
+SELECT COUNT (name) FROM table;   ( Não funciona sem parenteses )
+
+SELECT COUNT (*) FROM table;
+
+
+
+SELECT COUNT(DISTINCT name) FROM table;
