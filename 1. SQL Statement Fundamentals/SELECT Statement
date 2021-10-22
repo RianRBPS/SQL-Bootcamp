@@ -1,0 +1,9 @@
+SELECT columm_name FROM table_name
+
+
+
+SELECT c1 FROM table_1
+
+SELECT c1,c3 FROM table_1  ( Multiple collums)
+
+SELECT * FROM table_1         ( All collums )
