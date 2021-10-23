@@ -1,0 +1,31 @@
+SELECT column_1,column_2
+FROM table
+ORDER BY column_1 ASC/DESC
+
+
+
+ASC = ascending order
+DESC = descending order
+
+
+
+SELECT store_id,first_name,last_name FROM customer
+ORDER BY store_id,first_name ASC;
+
+========================================================================
+
+SELECT * FROM payment
+WHERE amount != 0.00
+ORDER BY payment_date DESC
+LIMIT 5;
+
+
+
+SELECT title,length FROM film
+ORDER BY length
+LIMIT 5;
+
+
+
+SELECT COUNT (*) FROM film
+WHERE length <= 50;
