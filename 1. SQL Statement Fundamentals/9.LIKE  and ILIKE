@@ -1,0 +1,31 @@
+ILIKE = Mesma coisa mas não importa se é maisculo ou minusculo
+
+
+
+
+
+SELECT * FROM customer
+WHERE first_name LIKE '_er%'
+
+
+
+
+
+All names that begin with an 'A'
+      WHERE name LIKE 'A%'
+
+All names that end with an 'a'
+      WHERE name LIKE '%a'
+
+
+
+
+
+Using to replace a single character
+      WHERE title LIKE 'Shrek _'
+
+
+
+SELECT * FROM customer
+WHERE first_name LIKE 'J%'
+AND last_name LIKE 'S%
