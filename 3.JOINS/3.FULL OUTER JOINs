@@ -1,0 +1,4 @@
+        UNIÃO DE CONJUNTOS 
+SELECT * FROM TableA
+FULL OUTER JOIN TableB
+ON TableA.col_match = TableB.col_match
