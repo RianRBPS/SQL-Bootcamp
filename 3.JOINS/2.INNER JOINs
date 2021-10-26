@@ -1,0 +1,8 @@
+        INTERSECÇÃO
+SELECT * FROM TableA
+INNER JOIN TableB
+ON TableA.col_match = TableB.col_match
+
+SELECT * FROMRegistrations
+INNER JOIN Logins
+ON Registrations.name = Logins.name
