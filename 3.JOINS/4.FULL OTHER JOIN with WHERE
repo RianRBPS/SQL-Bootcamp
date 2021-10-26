@@ -1,0 +1,13 @@
+           DIFERENÇA DE CONJUNTOS
+SELECT * FROM TableA
+FULL OUTER JOIN TableB
+ON TableA.col_match = TableB.col_match
+WHERE TableA.id IS null OR 
+TableB.id IS null
+ 
+ 
+SELECT * FROM Registrations
+FULL OUTER JOIN Logins
+ON Registrations.name = Logins.name
+WHERE Registrations.reg_id IS null 
+OR Logins.log_id IS null      
