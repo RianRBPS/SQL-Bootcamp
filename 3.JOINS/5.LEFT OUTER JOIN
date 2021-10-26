@@ -1,0 +1,26 @@
+     A + AB - B
+SELECT * 
+FROM Registrations
+LEFT OUTER JOIN Logins
+ON Registration.name = Logins.name
+
+    A - AB - B
+SELECT * 
+FROM tableA
+LEFT OUTER JOIN TableB
+ON TableA.col_match = Table.col_match
+WHERE TableB.id IS null
+
+===================================================
+
+SELECT film.filmd_id, film.title, inventory_id
+FROM film
+LEFT JOIN inventory 
+ON inventory.film_id = film.film_id
+
+
+SELECT film.filmd_id, film.title, inventory_id
+FROM film
+LEFT JOIN inventory 
+ON inventory.film_id = film.film_id
+WHERE inventory.film_id IS NULL
