@@ -7,3 +7,10 @@ TIMESTAMP   - Contais date and time
 TIMESTAMPTZ - Contais date, time and timezone
 
 ======================================================
+
+SHOW ALL
+SHOW TIMEZONE
+
+SELECT NOW()
+SELECT TIMEOFDAY()
+SELECT CURRENTDATE
