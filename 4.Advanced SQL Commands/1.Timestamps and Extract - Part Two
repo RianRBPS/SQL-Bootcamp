@@ -1,0 +1,23 @@
+EXTRACT()
+AGE()
+TO_CHAR()
+=============
+
+EXTRACT()
+  Allows to 'extract' or obatin sub-components of a data value
+   YEAR
+   MONTH
+   DAY
+   WEEK
+   QUARTER
+AGE()
+  Calculates and returns the current age given a timestamp
+   AGE(date_col)
+  Returns:
+   13 years 1 month 5 days 01:34:13.003452
+TO_CHAR(date_col,'mm-dd-yyyy')
+
+=============================
+
+SELECT EXTRACT (YEAR FROM payment_date) AS my_year
+FROM payment
