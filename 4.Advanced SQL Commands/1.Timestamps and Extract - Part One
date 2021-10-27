@@ -1,0 +1,9 @@
+TIME        - Contais only time
+
+DATE        - Contais only date
+
+TIMESTAMP   - Contais date and time
+
+TIMESTAMPTZ - Contais date, time and timezone
+
+======================================================
