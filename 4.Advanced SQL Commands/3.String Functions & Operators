@@ -1,0 +1,5 @@
+Note
+The string concatenation operator (||) will accept non-string input, so long as at least one input is of string type, as shown in Table 9.9. 
+For other cases, inserting an explicit coercion to text can be used to have non-string input accepted.
+
+=================================================================================================================================
