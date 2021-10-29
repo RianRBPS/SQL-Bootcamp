@@ -1,0 +1,7 @@
+SELECT tableA.col, tableB.col
+
+FROM table  AS tableA
+
+JOIN table AS tableB
+
+ON tableA.some_col = tableB.other_col
