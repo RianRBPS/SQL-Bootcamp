@@ -2,9 +2,26 @@ Main ones
 
 Boolean
   True or False
+  
 Character
   char, varchar, and text
+  
 Numeric
   integer and floating-point number
+  
 Temporal
   date, time, timestamp and interval
+
+===========================================
+
+Uncommon ones
+
+UUID 
+  Universally Unique Identifiers
+
+Array
+  Stores and array of strings, numbers, etc.
+
+JSON
+Hstore key-value pair
+Special Types such as network address and geomtric data
