@@ -12,7 +12,7 @@ Numeric
 Temporal
   date, time, timestamp and interval
 
-===========================================
+========================================================
 
 Uncommon ones
 
@@ -25,3 +25,7 @@ Array
 JSON
 Hstore key-value pair
 Special Types such as network address and geomtric data
+
+========================================================
+
+Search for the best database for the task you need in the documentation
