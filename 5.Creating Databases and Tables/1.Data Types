@@ -1,0 +1,10 @@
+Main ones
+
+Boolean
+  True or False
+Character
+  char, varchar, and text
+Numeric
+  integer and floating-point number
+Temporal
+  date, time, timestamp and interval
