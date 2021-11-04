@@ -1,0 +1,17 @@
+Contraints are used to prevent invalid data from being entered into the database
+
+Divided into tow mains categores:
+  Column Constraints
+  Table Constraints
+ 
+Most common constraints used:
+  NOT NULL
+  UNIQUE
+  PRIMARY Key
+    Uniquely identifies each row/record in a database table
+  FOREIGN Key
+    Constrains data based on columns in other tables 
+  Check Constraint
+    Ensures that all values in a column satisfy certain conditions
+  EXCLUSION Constraint
+    Ensures that if any two rows are compared on the specified column or expression using the specified operator, not all of these comparisons will return TRUE
