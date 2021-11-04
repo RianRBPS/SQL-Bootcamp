@@ -1,0 +1,10 @@
+[PK] Primary Key
+
+A primary key is a column or a group of columns used to identify a row uniquely in a table
+
+For example, in our dvdrental database we saw customers had a unique, non-null customer_id coumn as their primary key
+
+Primary keys are also important since they allow us to easily discern what columns should be used for joining tables together 
+
+=====
+In Constraints you can see if a key is foreign
