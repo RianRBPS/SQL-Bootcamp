@@ -8,3 +8,5 @@ CREATE TABLE table_name (
 INHEITS is opcional
 
 A sequence is often used as a primary key for a table
+
+=====================================================
