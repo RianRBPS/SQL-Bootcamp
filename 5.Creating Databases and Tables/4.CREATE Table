@@ -39,5 +39,5 @@ CREATE TABLE  job(
 =====================================================
 
 CREATE TABLE account_job(
-user_id INTEGER
+  user_id INTEGER
 )
