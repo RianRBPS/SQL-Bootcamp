@@ -27,5 +27,11 @@ CREATE TABLE account(
   email VARCHAR(250) UNIQUE NOT NULL,
   create_o TIMESTAMP NOT NULL,
   last_login TIMESTAMP
+)
 
+=====================================================
+
+CREATE TABLE  job(
+job_id SERIAL PRIMARY KEY,
+job_name VARCHAR(200) UNIQUE NOT NULL,
 )
