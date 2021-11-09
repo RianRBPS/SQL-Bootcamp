@@ -10,3 +10,10 @@ INHEITS is opcional
 A sequence is often used as a primary key for a table
 
 =====================================================
+
+Example
+CREATE TABLE players(
+player_id SERIAL PRIMARY KEY,
+column_name TYPE column_constraint,
+);
+
