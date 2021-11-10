@@ -12,3 +12,12 @@ WHERE condition;
 INSERT INTO account_job(user_id, job_id, hire_date)
 VALUES
 (1,1, CURRENT_TIMESTAMP)
+
+===============================================
+
+Tries to insert someone who don't exist will result in a error
+
+
+INSERT INTO account_job(user_id, job_id, hire_date)
+VALUES
+(10,10,CURRENT_TIMESTAMP)
