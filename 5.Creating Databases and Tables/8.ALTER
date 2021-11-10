@@ -1,0 +1,28 @@
+ALTER TABLE table_name
+ADD COLUMN new_col TYPE
+
+ALTER TABLE table_name
+DROP COLUMN col_name
+
+ALTER TABLE table_name
+ALTER COLUMN col_name
+SET DEFAULT value
+
+
+ALTER TABLE table_name
+ALTER COLUMN col_name
+DROP DEFAULT
+
+
+ALTER TABLE table_name
+ALTER COLUMN col_name
+SET NOT NULL
+
+ALTER TABLE table_name
+ALTER COLUMN col_name
+DROP NOT NULL
+
+
+ALTER TABLE table_name
+ALTER COLUMN col_name
+ADD CONSTRAINT constraint_name
