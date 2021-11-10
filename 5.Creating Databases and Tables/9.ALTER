@@ -1,0 +1,18 @@
+ALTER TABLE table_name
+DROP COLUMN col_NAME
+
+
+
+ALTER TABLE table_name
+DROP COLUMN col_NAME CASCADE
+
+
+
+ALTER TABLE table_name
+DROP COLUMN IF EXISTS col_NAME
+
+
+
+ALTER TABLE table_name
+DROP COLUMN col_one,
+DROP COLUMN col_two
