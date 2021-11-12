@@ -1,0 +1,11 @@
+CAST operator let's you convert from one data type into another
+
+
+SELECT CAST('5' AS INTEGER)
+
+PostgreSQL CAST operator
+SELECT '5'::INTEGER
+
+
+SELECT CAST(date AS TIMESTAMP)
+FROM TABLE
