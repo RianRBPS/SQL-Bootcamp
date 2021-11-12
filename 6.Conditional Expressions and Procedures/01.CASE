@@ -11,3 +11,10 @@ CASE  WHEN a = 1 THEN 'one'
 ELSE 'other' AS label
 END
 FROM test;
+
+SELECT a,
+  CASE a WHEN 1 THEN 'one'
+    WHEN 2 THEN 'two'
+    ELSE 'other'
+  END
+FROM test;
