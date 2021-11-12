@@ -1,0 +1,7 @@
+NULLIF(arg1,arg2)
+
+NULLIF(10,10)
+Returns NULL
+
+NULLIF(10,12)
+Returns 10
