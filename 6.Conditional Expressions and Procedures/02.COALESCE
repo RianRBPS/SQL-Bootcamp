@@ -1,0 +1,9 @@
+SELECT COALESCE (1, 2)
+1
+
+SELECT COALESCE (NULL, 2, 3)
+2
+
+
+SELECT item, (price - COALESCE(discount,0))
+AS final FROM table
