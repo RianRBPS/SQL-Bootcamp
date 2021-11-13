@@ -1,0 +1,6 @@
+Important 
+You MUST provide 100% correct file path
+
+VERY Important
+The import command DOES NOT create a table for you
+It assumes a table is already created
