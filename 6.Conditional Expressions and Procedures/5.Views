@@ -1,0 +1,8 @@
+Kinda like a stored query that can be acessed as a virtual table in PortgreSQL
+
+SELECT c1,c2,c3,c4
+FROM t1
+INNER JOIN t1
+ON t1.c1 = t2.c3
+
+SELECT * FROM view
